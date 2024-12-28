@@ -2,7 +2,7 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
-}
+}𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=frgiGKoJ#G3gmZpWc7rT3F8ykA7phNpq2OQhnQzfkS4ql1I25HQc
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
